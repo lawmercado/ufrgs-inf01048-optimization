@@ -9,6 +9,7 @@ class TestEightQueens(unittest.TestCase):
         Teste basico com o exemplo do enunciado
         :return:
         """
+
         self.assertEqual(10, eight_queens.evaluate([2,2,4,8,1,6,3,4]))
 
     def test_tournament(self):
@@ -16,6 +17,7 @@ class TestEightQueens(unittest.TestCase):
         Teste simples com dois individuos parecidos
         :return:
         """
+
         participants = [
             [2, 2, 4, 8, 1, 6, 3, 4],  # 10 conflitos
             [2, 7, 4, 8, 1, 6, 3, 4],  # 8 conflitos
@@ -28,21 +30,23 @@ class TestEightQueens(unittest.TestCase):
         Teste com o exemplo do enunciado
         :return:
         """
+
         parent1 = [2, 4, 7, 4, 8, 5, 5, 2]
-        parent2 = [3, 2, 7, 5, 2, 4, 1, 1]
+        parent2 = [3, 2, 6, 5, 2, 4, 1, 1]
 
         offspring1, offspring2 = eight_queens.crossover(parent1, parent2, 3)
 
         children = [offspring1, offspring2]
 
-        self.assertIn([2,4,7,5,2,4,1,1], children)
-        self.assertIn([3,2,7,4,8,5,5,2], children)
+        self.assertIn([2, 4, 7, 5, 2, 4, 1, 1], children)
+        self.assertIn([3, 2, 6, 4, 8, 5, 5, 2], children)
 
     def test_mutate_prob_zero(self):
         """
         Teste simples: mutacao com prob = 0 deve retornar o individuo intacto
         :return:
         """
+
         original = [2, 4, 7, 4, 8, 5, 5, 2]
         mutated = eight_queens.mutate(original[:], 0)  # sends a copy of 'original'
         self.assertEqual(original, mutated)
@@ -55,6 +59,7 @@ class TestEightQueens(unittest.TestCase):
         devido ao azar ou se o codigo esta mesmo com problema.
         :return:
         """
+
         original = [2, 4, 7, 4, 8, 5, 5, 2]
         mutated = eight_queens.mutate(original[:], 1)  # sends a copy of 'original'
         self.assertNotEqual(original, mutated)
@@ -65,6 +70,7 @@ class TestEightQueens(unittest.TestCase):
         Nao avalia a qualidade da solucao encontrada nem a corretude da implementacao
         :return:
         """
+
         response = timer.timeout(
             eight_queens.run_ga,
             args=(100, 40, 2, 0.3, True),

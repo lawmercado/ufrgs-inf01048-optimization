@@ -1,0 +1,120 @@
+Running with arguments: [0.001, 10]
+	MSE is 46.36103
+	R2 score is 0.67
+
+Running with arguments: [0.01, 10]
+	MSE is 41.88871
+	R2 score is 0.67
+
+Running with arguments: [0.05, 10]
+	MSE is 26.42090
+	R2 score is 0.67
+
+Running with arguments: [0.1, 10]
+	MSE is 25.43801
+	R2 score is 0.67
+
+Running with arguments: [0.5, 10]
+	MSE is 22.50805
+	R2 score is 0.67
+
+Running with arguments: [0.001, 50]
+	MSE is 42.55907
+	R2 score is 0.67
+
+Running with arguments: [0.01, 50]
+	MSE is 25.95493
+	R2 score is 0.67
+
+Running with arguments: [0.05, 50]
+	MSE is 24.04434
+	R2 score is 0.67
+
+Running with arguments: [0.1, 50]
+	MSE is 21.92663
+	R2 score is 0.67
+
+Running with arguments: [0.5, 50]
+	MSE is 13.78846
+	R2 score is 0.67
+
+Running with arguments: [0.001, 100]
+	MSE is 39.01113
+	R2 score is 0.67
+
+Running with arguments: [0.01, 100]
+	MSE is 25.17614
+	R2 score is 0.67
+
+Running with arguments: [0.05, 100]
+	MSE is 22.16067
+	R2 score is 0.67
+
+Running with arguments: [0.1, 100]
+	MSE is 18.90283
+	R2 score is 0.67
+
+Running with arguments: [0.5, 100]
+	MSE is 10.87220
+	R2 score is 0.67
+
+Running with arguments: [0.001, 200]
+	MSE is 31.36388
+	R2 score is 0.67
+
+Running with arguments: [0.01, 200]
+	MSE is 23.86753
+	R2 score is 0.67
+
+Running with arguments: [0.05, 200]
+	MSE is 19.16371
+	R2 score is 0.67
+
+Running with arguments: [0.1, 200]
+	MSE is 15.08724
+	R2 score is 0.67
+
+Running with arguments: [0.5, 200]
+	MSE is 10.03356
+	R2 score is 0.67
+
+Running with arguments: [0.001, 500]
+	MSE is 26.11006
+	R2 score is 0.67
+
+Running with arguments: [0.01, 500]
+	MSE is 22.24797
+	R2 score is 0.67
+
+Running with arguments: [0.05, 500]
+	MSE is 13.65816
+	R2 score is 0.67
+
+Running with arguments: [0.1, 500]
+	MSE is 10.85688
+	R2 score is 0.67
+
+Running with arguments: [0.5, 500]
+	MSE is 9.98492
+	R2 score is 0.67
+
+Running with arguments: [0.001, 1000]
+	MSE is 25.27433
+	R2 score is 0.67
+
+Running with arguments: [0.01, 1000]
+	MSE is 18.85352
+	R2 score is 0.67
+
+Running with arguments: [0.05, 1000]
+	MSE is 10.85289
+	R2 score is 0.67
+
+Running with arguments: [0.1, 1000]
+	MSE is 10.03293
+	R2 score is 0.67
+
+Running with arguments: [0.5, 1000]
+	MSE is 9.98491
+	R2 score is 0.67
+

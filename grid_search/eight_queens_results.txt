@@ -1,0 +1,36 @@
+Running GA with arguments: [200, 10, 2, 0.25, False]
+	Mean considering 50 executions: 0.76
+
+Running GA with arguments: [200, 10, 5, 0.25, False]
+	Mean considering 50 executions: 0.66
+
+Running GA with arguments: [200, 10, 8, 0.25, False]
+	Mean considering 50 executions: 0.92
+
+Running GA with arguments: [200, 20, 2, 0.25, False]
+	Mean considering 50 executions: 0.66
+
+Running GA with arguments: [200, 20, 5, 0.25, False]
+	Mean considering 50 executions: 0.66
+
+Running GA with arguments: [200, 20, 8, 0.25, False]
+	Mean considering 50 executions: 0.68
+
+Running GA with arguments: [200, 40, 2, 0.25, False]
+	Mean considering 50 executions: 0.74
+
+Running GA with arguments: [200, 40, 5, 0.25, False]
+	Mean considering 50 executions: 0.52
+
+Running GA with arguments: [200, 40, 8, 0.25, False]
+	Mean considering 50 executions: 0.58
+
+Running GA with arguments: [200, 60, 2, 0.25, False]
+	Mean considering 50 executions: 0.56
+
+Running GA with arguments: [200, 60, 5, 0.25, False]
+	Mean considering 50 executions: 0.52
+
+Running GA with arguments: [200, 60, 8, 0.25, False]
+	Mean considering 50 executions: 0.56
+

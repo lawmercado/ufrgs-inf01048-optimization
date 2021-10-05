@@ -64,13 +64,13 @@ def fit(data: np.ndarray, theta_0: float, theta_1: float, alpha: float, num_iter
     losses = []
 
     for epoch in range(num_iterations):
-        print("Epoch %d" % epoch)
+        # print("Epoch %d" % epoch)
         theta_0s.append(theta_0)
         theta_1s.append(theta_1)
         losses.append(compute_mse(theta_0, theta_1, data))
 
         theta_0, theta_1 = step_gradient(theta_0, theta_1, data, alpha)
 
-        print("\tMSE is %.5f" % losses[-1].item())
+        # print("\tMSE is %.5f" % losses[-1].item())
 
     return theta_0s, theta_1s
